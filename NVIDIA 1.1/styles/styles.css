@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* jone doe apartado */
+
+.tarjeta{
+    max-width: 900px;
+    height: 700px;
+    background-color: white;
+    color: black;
+    padding: 200px 0;
+    margin: auto;
+    border: solid rgb(201, 195, 195);
+    margin-top: 75px;
+    margin-left: 400px;
+}
+
+.encabezado{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    text-align: left;
+    margin-top: -200px;
+}
+
+.icono{
+    margin-top: 100px; /* mientras mas pixeles abajo y mientras menos arriba */
+    margin-left: 75px;
+    width: 200px;
+    border: 6px white solid;
+    border-radius: 50%;
+}
+
+.cuerpo-tarjeta{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+.ubi{
+    width: 17px;
+}
+.set{
+    width: 17px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.optimus{
+    margin-top: 10px;
+}
+
+/* apartado selector */
+
+.nav{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: black;
+    font-size: 30px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-title{
+    margin: -100px;
+    margin-right: 50px;
+    font-size: 90px;
+}
+
+.taza{
+    margin-left: 250px;
+}
+
+.btn{
+    text-align: center;
+    width: 200px;
+    height: 75px;
+    background-color: rgb(41, 180, 180);
+    color: white;
+    border: black solid 4px;
+    box-shadow: 100px;
+    font-size: 40px;
+    margin-left: 300px;
+}
+
+.mini li{
+    margin-right: 30px;
+    font-size: 40px;
+}
+
+/* apartado Education */
+
+.content{
+    max-width: 900px;
+    height: 700px;
+    background-color: white;
+    border: solid rgb(201, 195, 195);
+    margin-top: 75px;
+    margin-left: 400px;
+    font-size: 30px;
+}
+
+.cabeza{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(80, 77, 77);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+h2{
+    margin-right: 575px;
+    font-size: 45px;
+}
+
+.cursos{
+    margin: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+h4{
+    padding: 15px 0;
+}
+
+.fecha{
+    color: gray;
+}
+
+.dojo{
+    font-size: 43px;
+}
+
+/* amistades y solicitudes */
+
+.connection_r{
+    max-width: 550px;
+    height: 350px;
+    background-color: white;
+    color: black;
+    padding: 200px 0;
+    border: solid rgb(201, 195, 195);
+    margin-left: 1500px;
+    margin-top: -1475px;
+}
+
+.ironhide{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(80, 77, 77);
+    text-align: left;
+    margin-top: -200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.sans{
+    margin-right: 20px;
+    width: 45px;
+    background-color: rgb(155, 151, 151);
+    text-align: center;
+    color: black;
+    border-radius: 200px;
+    border: black solid 3px;
+}
+
+.friends{
+    font-size: 40px;
+    padding: 10px 0;
+    margin: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.e{
+    width: 75px;
+    border-radius: 200px;
+    border: black solid 3.5px;
+}
+
+.friends-2{
+    font-size: 40px;
+    padding: 10px 0;
+    margin: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eis{
+    border-radius: 200px;
+    border: black solid 2px;
+}
+
+/* your connections */
+
+.wessex{
+    max-width: 550px;
+    max-height: 800px;
+    background-color: white;
+    border: solid rgb(201, 195, 195);
+    margin-left: 1500px;
+    margin-top: 75px;
+}
+
+.long{
+    max-width: 100%;
+    background-color: rgb(80, 77, 77);
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.stu{
+    width: 135px;
+    height: 50px;
+    color: black;
+    margin: 20px;
+    background-color: rgb(155, 151, 151);
+    text-align: center;
+    border-radius: 45%;
+    border: black solid 3px;
+    margin-right: 50px;
+}
+
+.under{
+    max-width: 100%;
+    background-color: white;
+    height: 100px;
+    font-size: 40px;
+    margin-top: 525px;
+    border-top: 6px solid rgb(201, 195, 195);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell{
+    margin-right: 275px;
+}
+
+.amigo1{
+    font-size: 50px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.amigo2{
+    font-size: 50px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amigo3{
+    font-size: 50px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amigo4{
+    font-size: 50px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.depeche{
+    margin: 25px;
+}
+
+.amigos{
+    position: absolute;
+}
+
+.es{
+    width: 75px;
+    border-radius: 200px;
+    border: black solid 3.5px;
+}
